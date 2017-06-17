@@ -20,7 +20,7 @@ $config['Site']['www'] = "http://localhost";
 
 $config['MySQLi']['hostname'] = "localhost";
 $config['MySQLi']['username'] = "root";
-$config['MySQLi']['password'] = "cookie69";
+$config['MySQLi']['password'] = "";
 $config['MySQLi']['database'] = "gomey";
 
 ?>

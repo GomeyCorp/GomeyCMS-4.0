@@ -131,7 +131,7 @@ header('Location: index.php');
         <div class="mdl-layout__tab-panel is-active" id="overview">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Heil.world - The greatest thing since the holocaust!</h4>
+              <h4><img src="/images/store.png"></h4>
 
             </br></br><br>
           </section>
@@ -140,21 +140,42 @@ header('Location: index.php');
         <div class="mdl-layout__tab-panel" id="login">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Heil.world Dashboard   <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="0">account_box</div>          </h4>
-              Welcome to the Heil.world dashboard. This is still in BETA, dont expect much.
+              <h4>Heil.world Store</h4>
+              <b>Fuck Alien rights Tee</b><br>
+              SHIRTS ARE MADE TO ORDER -- PLEASE ALLOW UP TO 7 DAYS FOR PRINTING, EXPECT 3 ADDITIONAL DAYS FOR SHIPPING.<br><br>
+              <center><img src="/images/alienteef.jfif">&nbsp;<img src="/images/alienteeb.jfif"><br><br>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="serveraj@live.co.uk">
+                <input type="hidden" name="lc" value="BM">
+                <input type="hidden" name="item_name" value="AlienTee">
+                <input type="hidden" name="item_number" value="al13n">
+                <input type="hidden" name="button_subtype" value="services">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="currency_code" value="GBP">
+                <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+                <table>
+                  <tr><td><input type="hidden" name="on0" value=""F**K ALIEN RIGHTS"">"F**K ALIEN RIGHTS"</td></tr><tr><td><select name="os0">
+	                     <option value="With slogan">With slogan £10.00 GBP</option>
+	                      <option value="Without slogan">Without slogan £7.00 GBP</option>
+                      </select> </td></tr>
+                      <tr><td><input type="hidden" name="on1" value="Size">Size</td></tr><tr><td><select name="os1">
+	                       <option value="Small">Small </option>
+	                        <option value="Medium">Medium </option>
+	                         <option value="Large">Large </option>
+                         </select> </td></tr>
+                       </table>
+                       <input type="hidden" name="currency_code" value="GBP">
+                       <input type="hidden" name="option_select0" value="With slogan">
+                       <input type="hidden" name="option_amount0" value="10.00">
+                       <input type="hidden" name="option_select1" value="Without slogan">
+                       <input type="hidden" name="option_amount1" value="7.00">
+                       <input type="hidden" name="option_index" value="0">
+                       <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                     </form>
+</center>
 
-              <b>
-
-
-              <p>
-
-
-              </p>
-              <ul class="toc">
-                <a href="/forums/">Gomey</a>
-                <a href="/boards/">/boards/</a>
-                <a href="/gaff.php">GaffHUB</a>
-              </ul>
             </div>
           </section>
         </div>
