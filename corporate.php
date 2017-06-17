@@ -116,6 +116,7 @@ header('Location: index.php');
             <a href="/boards/" class="mdl-layout__tab" >/boards/</a>
             <a href="/gaff.php" class="mdl-layout__tab" >GaffHub</a>
             <a href="/cancermerchant.php" class="mdl-layout__tab" >Cancer Merchant</a>
+            <a href="/corporate.php" class="mdl-layout__tab" >Corporate</a>
             <a href="/logout.php" class="mdl-layout__tab" >Logout</a>
              <div class="mdl-layout-spacer"></div>
             <a class="mdl-navigation__link" href="#">Powered by GomeyCMS</a>
