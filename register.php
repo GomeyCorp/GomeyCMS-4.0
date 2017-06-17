@@ -106,7 +106,7 @@ header('Location: dash.php');
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title"><img src="../images/logo.png"></span>
+          <span class="mdl-layout-title"><a href="/" class="logo">Heil.world</a></span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -135,9 +135,8 @@ header('Location: dash.php');
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Heil.world Register</h4>
-              Fill in the below boxes then continue to create a Heil.world Account!</i>
-
-              <b>
+              Fill in the below boxes then continue to create a Heil.world Account!
+              <b></br></br>* == Required
 
 
               <p>
@@ -216,7 +215,7 @@ header('Location: dash.php');
                 <form method="POST">
                   <div class="mdl-textfield mdl-js-textfield">
                     <input name="email" class="mdl-textfield__input" type="text" id="email" >
-                    <label class="mdl-textfield__label" for="email">Email Adress (Will be verifed)</label>
+                    <label class="mdl-textfield__label" for="email">Email Adress* (Will be verifed)</label>
                   </div></br>
                   <div class="mdl-textfield mdl-js-textfield">
                     <input name="mobile" class="mdl-textfield__input" type="text" id="mobile" >
@@ -224,16 +223,16 @@ header('Location: dash.php');
                   </div></br>
                   <div class="mdl-textfield mdl-js-textfield">
                     <input name="name" class="mdl-textfield__input" type="text" id="name" >
-                    <label class="mdl-textfield__label" for="name">Display name (I.e 'The Alien')</label>
+                    <label class="mdl-textfield__label" for="name">Display name* (I.e 'The Alien')</label>
                   </div></br>
                   <div class="mdl-textfield mdl-js-textfield">
                     <input name="password" class="mdl-textfield__input" type="password" id="password">
-                    <label class="mdl-textfield__label" for="password">Password</label>
+                    <label class="mdl-textfield__label" for="password">Password*</label>
                   </div>
                   &nbsp;&nbsp;
                   <div class="mdl-textfield mdl-js-textfield">
                     <input name="conpassword" class="mdl-textfield__input" type="password" id="conpassword">
-                    <label class="mdl-textfield__label" for="conpassword">Confirm Password</label>
+                    <label class="mdl-textfield__label" for="conpassword">Confirm Password*</label>
                   </div>
                   &nbsp;&nbsp;</br>
                   <div class="g-recaptcha" data-sitekey="6LeQ2SQUAAAAAAFrPGlJ9Fj-bHW6A4fqEmzhaDdz"></div></br>

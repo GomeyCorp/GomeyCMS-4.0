@@ -24,7 +24,7 @@
 
 
 session_start();
-//error_reporting(0); // This will be done via Al13ns custom error handling
+error_reporting(0); // This will be done via Al13ns custom error handling
 
 // Call core files
 require_once  "engine/class.engine.php";

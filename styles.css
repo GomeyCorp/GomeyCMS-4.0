@@ -236,3 +236,11 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+.logo {
+      display: block;
+      text-indent: -9999px;
+      width: 100px;
+      height: 82px;
+      background: url(/images/logo.svg);
+      background-size: 100px 82px;
+}

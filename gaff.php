@@ -84,6 +84,9 @@ header('Location: index.php');
       margin-bottom: 40px;
       z-index: 900;
     }
+    body {
+    background-color: #B0E0E6;
+  }
     </style>
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
@@ -91,7 +94,7 @@ header('Location: index.php');
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title"><img src="../images/logo.png"></span>
+          <span class="mdl-layout-title"><a href="/" class="logo">Heil.world</a></span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -103,7 +106,7 @@ header('Location: index.php');
             <a href="/gaff.php" class="mdl-layout__tab" >GaffHub</a>
             <a href="/logout.php" class="mdl-layout__tab" >Logout</a>
              <div class="mdl-layout-spacer"></div>
-            <a class="mdl-navigation__link" href="/cms/">Powered by GomeyCMS</a>
+            <a class="mdl-navigation__link" href="#">Powered by GomeyCMS</a>
           </nav>
         </div>
       </div>

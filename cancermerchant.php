@@ -85,7 +85,7 @@ header('Location: index.php');
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-amber.min.css" />
     <script src="//storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <style>
@@ -115,6 +115,7 @@ header('Location: index.php');
             <a href="/forums/" class="mdl-layout__tab" >Gomey</a>
             <a href="/boards/" class="mdl-layout__tab" >/boards/</a>
             <a href="/gaff.php" class="mdl-layout__tab" >GaffHub</a>
+            <a href="/cancermerchant.php" class="mdl-layout__tab" >Cancer Merchant</a>
             <a href="/logout.php" class="mdl-layout__tab" >Logout</a>
              <div class="mdl-layout-spacer"></div>
             <a class="mdl-navigation__link" href="#">Powered by GomeyCMS</a>
@@ -128,7 +129,7 @@ header('Location: index.php');
         <div class="mdl-layout__tab-panel is-active" id="overview">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Heil.world - The greatest thing since the holocaust!</h4>
+            <center><img src="/images/cancermerchant_alt.png"></center>
 
             </br></br><br>
           </section>
@@ -137,8 +138,10 @@ header('Location: index.php');
         <div class="mdl-layout__tab-panel" id="login">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
-              <h4>Heil.world Dashboard   <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="0">account_box</div>          </h4>
-              Welcome to the Heil.world dashboard. This is still in BETA, dont expect much.
+              <h4>Cancer Merchant</h4>
+              An up-and-coming hit glaswegian band funded by Gomey Corp. Featuring <i>(Grand Master)</i> Paul, <i>(Grand Moff)</i> Arran & <i>(Grand Fupa)</i> Andrew. However previously independent
+              contractors have worked with the band including 'Johnny' and 'Shawnnybhoy2063454'. Previously there was a member called xX~CammyBhoy~Xx however on the 17/06/2017 an executive deciosion was made
+              to kick him from the band following a missed deadline. Heil!
 
               <b>
 
@@ -148,15 +151,165 @@ header('Location: index.php');
 
               </p>
               <ul class="toc">
-                <a href="/forums/">Gomey</a>
-                <a href="/boards/">/boards/</a>
-                <a href="/gaff.php">GaffHUB</a>
+                <a href="#cancer">Cancer</a>
+                <a href="#heilemma">Heil Emma</a>
+                <a href="#avcc">A very Cancer Christmas</a>
+                <a href="#aa">Anniversary Album (AYU)</a>
               </ul>
             </div>
           </section>
         </div>
 
+        <div class="mdl-layout__tab-panel" id="cancer">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>Cancer</h4>
+              <b>Tracklist</b>
+              <style>
+.track-list {
+  width: 500px;
+}
+</style>
 
+<ul class="track-list mdl-list">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Absolute Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Absolute Cancer (Cory-Canceros Remix)
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Aba Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Mos Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Gomey Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Seig Heil Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Route Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Remember, no Cancer
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Who shot Cancer
+    </span>
+  </li>
+</ul>
+            </div>
+          </section>
+        </div>
+        <div class="mdl-layout__tab-panel" id="heilemma">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>Heil Emma</h4>
+              <b>Tracklist</b>
+              <ul class="track-list mdl-list">
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Cancer is the most fun
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Gang Starr got Terminal Cancer
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    State of Cancer
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Mob Deep Gunning Cancer
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    C.A.N.C.E.R Flow
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Pow-Pow Cancer
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Generational Cancer
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Cancer Attack
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    <i>+ 3 More</i>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mdl-layout__tab-panel" id="avcc">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>A very Cancer Christmas</h4>
+              <b>Tracklist</b>
+              <ul class="track-list mdl-list">
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Fairytale of Gomey Corp.
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    A freckled Christmas
+                  </span>
+                </li>
+                <li class="mdl-list__item">
+                  <span class="mdl-list__item-primary-content">
+                    Hole in The Tree
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="mdl-layout__tab-panel" id="aa">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>1st Anniversary Album</h4>
+              <b>Tracklist</b><br><br>
+              To be confirmed
+            </div>
+          </section>
+        </div>
         <footer class="mdl-footer">
           <div class="mdl-footer--bottom-section">
             <div class="mdl-logo">
